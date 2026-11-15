@@ -1,0 +1,12 @@
+== A. Muon g-2: electron vacuum-polarization loop, A2(m_mu/m_e) ==
+computed from Eq. (6): 1.0942583111    literature (Laporta-Remiddi / CODATA eq. 42): 1.0942583111(84)
+
+== B. Muonic hydrogen: Uehling (electron-loop) shift of the 2P-2S Lamb shift ==
+2P-2S Uehling shift from Eq. (9): 205.00738 meV    literature (arXiv:1011.5275, Eq. 2.24): 205.0074 meV
+
+== C. OPAL small-angle Bhabha: change of alpha between t=-1.81 and -6.07 GeV^2 ==
+leptonic-only prediction from Eq. (6): 202.04 e-5   (OPAL quotes 202e-5)
+OPAL measured: (440 +- 58 stat +- 43 syst +- 30 theory) e-5;  total error 78.19 e-5;  SM full prediction quoted: 460 +- 8 e-5
+pull of leptonic-only vs data: 3.04 sigma   (OPAL: 'about 3 sigma')
+pull of SM (leptonic+hadronic, 460) vs data: -0.256 sigma
+hadronic part implied by the data: 238.0 +- 78.2 e-5

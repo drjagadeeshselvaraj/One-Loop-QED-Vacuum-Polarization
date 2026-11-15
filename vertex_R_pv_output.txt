@@ -1,0 +1,16 @@
+# Reference run of vertex_R_pv.py (stopped by a 580 s wall-clock limit; the last row, q2=3 at Lambda=1e4, was not reached)
+slope check (mu=0.001): numeric 0.0050594976  Bethe 0.005058137  rel diff 0.000269   [42s]
+
+q2/m2   Lambda/m   err=F1R^L-F1R^inf   err*L^2/m^2
+ -4.0     1e+02      1.3623e-6     0.013623
+ -1.0     1e+02      3.5598e-7    0.0035598
+  0.5     1e+02     -1.8354e-7   -0.0018354
+  3.0     1e+02     -1.2033e-6    -0.012033
+ -4.0     1e+03      2.0754e-8     0.020754
+ -1.0     1e+03      5.3428e-9    0.0053428
+  0.5     1e+03      -2.727e-9    -0.002727
+  3.0     1e+03     -1.7383e-8    -0.017383
+ -4.0     1e+04     2.7886e-10     0.027886
+ -1.0     1e+04     7.1257e-11    0.0071257
+  0.5     1e+04    -3.6184e-11   -0.0036184
+# err*Lambda^2 changes by a constant per decade of Lambda (e.g. +0.0072 per decade at q2=-4): err = Lambda^-2 (a + b ln Lambda).

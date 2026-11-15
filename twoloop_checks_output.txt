@@ -1,0 +1,10 @@
+Clifford algebra ok
+3-gamma identity: True
+2-gamma identity: True
+Traceback (most recent call last):
+  File "/home/claude/repl/twoloop_checks.py", line 16, in <module>
+    V=vertex_contracted(p,p,mu,Lam,nodes,None)
+  File "/home/claude/repl/twoloop_lib.py", line 61, in vertex_contracted
+    W1=sum(c/(D0+z*M*M) for c,M in REG); W2=-sum(c*np.log(D0+z*M*M) for c,M in REG)
+                                   ^^^
+TypeError: 'NoneType' object is not iterable

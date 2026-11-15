@@ -1,0 +1,5 @@
+time 14s
+nu 0 max|direct - FeynmanParam| = 6.94e-05  |Lambda_nu|max= 1.07416
+nu 1 max|direct - FeynmanParam| = 6.94e-05  |Lambda_nu|max= 1.06657
+nu 2 max|direct - FeynmanParam| = 6.94e-05  |Lambda_nu|max= 1.06038
+nu 3 max|direct - FeynmanParam| = 6.94e-05  |Lambda_nu|max= 1.06038

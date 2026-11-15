@@ -1,0 +1,26 @@
+
+== Sec. 5.4: direct 4D Euclidean integration, PV combination (weights 1,-1.2,0.2 at m=1,3,7) ==
+sum c = -3.8893845486632135669650400336125776503689076054507294581882e-62  sum c m^2 = -1.24460305557222834142881281075602484811805043374423342662022e-60
+Q=1.0: raw(R=2000)=-0.0013180952 raw(R=5000)=-0.00131822007 rel.diff raw=1.8e-5; extrapolated=-0.001318243856  Feynman-parameter=-0.001318243856  rel.diff=2.64e-10
+Q=2.0: raw(R=2000)=-0.00106627854 raw(R=5000)=-0.00106630976 rel.diff raw=5.6e-6; extrapolated=-0.001066315707  Feynman-parameter=-0.001066315707  rel.diff=7.95e-11
+
+== Longitudinal part J_L = -q_mu q_nu Pi^{mu nu}/e^2, |q|=0.5 ==
+PV combination, R=2000, 5000: -3.04e-7 -4.863e-8  R^-2 extrapolated: -7.14e-13  (Ward identity: 0)
+sharp cutoff L=10: J_L = -0.31322998   |Eq.(18) prediction| = 0.31349376   ratio |J_L|/pred = 0.99915858
+sharp cutoff L=100: J_L = -31.65944   |Eq.(18) prediction| = 31.659704   ratio |J_L|/pred = 0.99999167
+
+== Sec. 5.10(c): cancellation of Delta^{D/2-1} terms, non-integer D ==
+D=3.3: A+q^2 B... |A - 8 f q^2 I0| = 3.08e-32  (A=-q^2B: 3.08e-32)
+D=3.77: A+q^2 B... |A - 8 f q^2 I0| = 2.47e-32  (A=-q^2B: 2.47e-32)
+D=2.6: A+q^2 B... |A - 8 f q^2 I0| = 1.85e-32  (A=-q^2B: 1.85e-32)
+
+== Sec. 6: two-loop via Kallen-Sabry spectral function, Eq. (55) of [18] (m=1) ==
+F1(0.5) = 0.031669569431  (paper: 0.03166956943)
+F2(0.5) = 0.11704351288
+F2(4) = 0.62821652018
+F2(100) = 2.0137838422
+F2(10000) = 3.2935482857
+(paper rows: 0.11704351288, 0.62821652018, 2.0137838422, 3.2935482857)
+row 4: F2/Q2 at Q2=1e-4 = 0.25308226  41/162 = 0.2530864198
+row 5: F2(1e7) = 5.023242647145  Eq.(27) without mass term = 5.023247482566  with -3 ln Q2/Q2: 5.023242647137
+row 6: (F2-asy)*Q2/ln Q2 = -2.9999949  (expected -3)

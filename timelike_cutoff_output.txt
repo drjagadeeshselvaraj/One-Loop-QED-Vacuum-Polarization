@@ -1,0 +1,9 @@
+sharp cutoff, timelike s; predicted real error = +a s/(15 pi L^2) (analytic continuation of -a Q^2 c/(15 pi L^2), c=1)
+s=   8315.2 L/sqrt(s)=    10  Re err=1.5494e-06  pred=1.5485e-06  ratio=1.00054  Im err=0.00e+00 (rel to ImPi 0.0e+00)
+s=   8315.2 L/sqrt(s)=   100  Re err=1.5486e-08  pred=1.5485e-08  ratio=1.00001  Im err=0.00e+00 (rel to ImPi 0.0e+00)
+s=   8315.2 L/sqrt(s)=  1000  Re err=1.5485e-10  pred=1.5485e-10  ratio=1.00000  Im err=0.00e+00 (rel to ImPi 0.0e+00)
+s=  33260.7 L/sqrt(s)=    10  Re err=1.5494e-06  pred=1.5485e-06  ratio=1.00054  Im err=0.00e+00 (rel to ImPi 0.0e+00)
+s=  33260.7 L/sqrt(s)=   100  Re err=1.5486e-08  pred=1.5485e-08  ratio=1.00001  Im err=0.00e+00 (rel to ImPi 0.0e+00)
+s=  33260.7 L/sqrt(s)=  1000  Re err=1.5485e-10  pred=1.5485e-10  ratio=1.00000  Im err=0.00e+00 (rel to ImPi 0.0e+00)
+
+spacelike control, Q2=MZ^2:

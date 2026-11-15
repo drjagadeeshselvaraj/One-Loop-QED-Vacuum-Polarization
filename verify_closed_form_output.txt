@@ -1,0 +1,19 @@
+== Row 1: Eq. (26) of [18] (spacelike q^2=-Q^2, sign flipped) vs Eq. (6)/(8) ==
+Q2=0.5: -Eq.(26) = 0.0316695694313   dispersion F1 = 0.0316695694313   diff = 3.6e-31
+Q2=4.0: -Eq.(26) = 0.193261271205   dispersion F1 = 0.193261271205   diff = 1.5e-31
+Q2=100.0: -Eq.(26) = 0.998490425992   dispersion F1 = 0.998490425992   diff = 6.9e-31
+(paper row 1: 0.03166956943, 0.1932612712, 0.9984904260)
+
+== Row 2: Eq. (52) of [18] (spacelike, sign flipped) vs dispersion integral of Eq. (55) ==
+Q2=0.5: -Eq.(52) = 0.11704351288357   dispersion F2 = 0.11704351288357   rel.diff = 2.3e-29
+Q2=4.0: -Eq.(52) = 0.62821652018414   dispersion F2 = 0.62821652018414   rel.diff = 6.3e-31
+Q2=100.0: -Eq.(52) = 2.013783842206   dispersion F2 = 2.013783842206   rel.diff = 3.9e-31
+Q2=10000.0: -Eq.(52) = 3.2935482856561   dispersion F2 = 3.2935482856561   rel.diff = 2.1e-29
+(paper row 2: 0.11704351288, 0.62821652018, 2.0137838422, 3.2935482857; relative difference below 7e-29)
+
+== Row 3: Im of Eq. (52) continued to q^2 = s + i0 vs Eq. (55) ==
+s=5.0: Im Eq.(52) = 4.9045691889181   pi*{Eq.(55)} = 4.9045691889181   diff = 7.9e-31
+s=10.0: Im Eq.(52) = 2.334570938191   pi*{Eq.(55)} = 2.334570938191   diff = 1.6e-30
+s=100.0: Im Eq.(52) = 0.88928064128372   pi*{Eq.(55)} = 0.88928064128372   diff = 3.1e-30
+(paper row 3: 4.9045691889, 2.3345709382, 0.88928064128)
+Re part check at s=5 (Eq. 52 real part, for reference): -0.0930425872558

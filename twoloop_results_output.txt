@@ -1,0 +1,241 @@
+# Two-loop diagram-level results. Files: out_L*=single PV Rfac40; outD_L*=double PV Rfac40; outG_L*=Gaussian Rfac40; outQ05/outGQ05=Q^2=0.5; f*_L*=Rfac320 (noise beyond |k|~3e4). Values are -Pi2 (sign convention).
+## out_L128.txt
+Q=2.0 Lam=128.0 Rmax=5120  time 41s
+one-loop  Pi1 = -0.1932609165676316    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.6269626087164121    target 0.6282165 (Q=2)
+## out_L16.txt
+Q=2.0 Lam=16.0 Rmax=640  time 68s
+one-loop  Pi1 = -0.19326107370695764    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.6021094418950573    target 0.6282165 (Q=2)
+## out_L256.txt
+Q=2.0 Lam=256.0 Rmax=10240  time 41s
+one-loop  Pi1 = -0.1932600256507041    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.6278437671572796    target 0.6282165 (Q=2)
+## out_L32.txt
+Q=2.0 Lam=32.0 Rmax=1280  time 67s
+one-loop  Pi1 = -0.1932610621543566    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.618197143042635    target 0.6282165 (Q=2)
+## out_L4.txt
+Q=2.0 Lam=4.0 Rmax=160  time 67s
+one-loop  Pi1 = -0.19326107616345364    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.4989192029281732    target 0.6282165 (Q=2)
+## out_L512.txt
+Q=2.0 Lam=512.0 Rmax=20480  time 41s
+one-loop  Pi1 = -0.19326707626496267    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.6280176005831425    target 0.6282165 (Q=2)
+## out_L64.txt
+Q=2.0 Lam=64.0 Rmax=2560  time 67s
+one-loop  Pi1 = -0.1932611114745518    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.6246228842093028    target 0.6282165 (Q=2)
+## out_L8.txt
+Q=2.0 Lam=8.0 Rmax=320  time 67s
+one-loop  Pi1 = -0.19326107760104694    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.5663457245072601    target 0.6282165 (Q=2)
+## outD_L128.txt
+reg=double Q=2.0 Lam=128.0 Rmax=5120  time 74s
+one-loop  Pi1 = -0.1932609165676316    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.6267099384724334    target 0.6282165 (Q=2)
+## outD_L16.txt
+reg=double Q=2.0 Lam=16.0 Rmax=640  time 74s
+one-loop  Pi1 = -0.19326107370695764    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.596778856456415    target 0.6282165 (Q=2)
+## outD_L256.txt
+reg=double Q=2.0 Lam=256.0 Rmax=10240  time 73s
+one-loop  Pi1 = -0.1932600256507041    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.6278078885406658    target 0.6282165 (Q=2)
+## outD_L32.txt
+reg=double Q=2.0 Lam=32.0 Rmax=1280  time 74s
+one-loop  Pi1 = -0.1932610621543566    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.6160815722555433    target 0.6282165 (Q=2)
+## outD_L64.txt
+reg=double Q=2.0 Lam=64.0 Rmax=2560  time 74s
+one-loop  Pi1 = -0.1932611114745518    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.6238747302809678    target 0.6282165 (Q=2)
+## outG_L128.txt
+reg=gauss Q=2.0 Lam=128.0 Rmax=5120  time 182s
+one-loop  Pi1 = -0.1932609165676316    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.6271346000586254    target 0.6282165 (Q=2)
+## outG_L16.txt
+reg=gauss Q=2.0 Lam=16.0 Rmax=640  time 181s
+one-loop  Pi1 = -0.19326107370695764    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.5990096349867113    target 0.6282165 (Q=2)
+## outG_L256.txt
+reg=gauss Q=2.0 Lam=256.0 Rmax=10240  time 183s
+one-loop  Pi1 = -0.1932600256507041    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.6280190474932917    target 0.6282165 (Q=2)
+## outG_L32.txt
+reg=gauss Q=2.0 Lam=32.0 Rmax=1280  time 182s
+one-loop  Pi1 = -0.1932610621543566    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.6173530751594263    target 0.6282165 (Q=2)
+## outG_L512.txt
+reg=gauss Q=2.0 Lam=512.0 Rmax=20480  time 180s
+one-loop  Pi1 = -0.19326707626496267    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.6283115029222658    target 0.6282165 (Q=2)
+## outG_L64.txt
+reg=gauss Q=2.0 Lam=64.0 Rmax=2560  time 182s
+one-loop  Pi1 = -0.1932611114745518    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.6245440274102916    target 0.6282165 (Q=2)
+## outQ05_L128.txt
+reg=single Q=0.70710678 Lam=128.0 Rmax=5120  time 67s
+one-loop  Pi1 = -0.031669228452903826    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.11686796935012679    target 0.6282165 (Q=2)
+## outQ05_L256.txt
+reg=single Q=0.70710678 Lam=256.0 Rmax=10240  time 67s
+one-loop  Pi1 = -0.031668372973310197    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.11698544327480542    target 0.6282165 (Q=2)
+## outQ05_L32.txt
+reg=single Q=0.70710678 Lam=32.0 Rmax=1280  time 66s
+one-loop  Pi1 = -0.03166937891416895    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.11560777369560299    target 0.6282165 (Q=2)
+## outQ05_L64.txt
+reg=single Q=0.70710678 Lam=64.0 Rmax=2560  time 68s
+one-loop  Pi1 = -0.03166942647622695    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.11653829384231598    target 0.6282165 (Q=2)
+## outGQ05_L128.txt
+reg=gauss Q=0.70710678 Lam=128.0 Rmax=5120  time 182s
+one-loop  Pi1 = -0.031669228452903826    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.11689935012248663    target 0.6282165 (Q=2)
+## outGQ05_L256.txt
+reg=gauss Q=0.70710678 Lam=256.0 Rmax=10240  time 182s
+one-loop  Pi1 = -0.031668372973310197    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.11702209261538438    target 0.6282165 (Q=2)
+## outGQ05_L32.txt
+reg=gauss Q=0.70710678 Lam=32.0 Rmax=1280  time 182s
+one-loop  Pi1 = -0.03166937891416895    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.11549987940362745    target 0.6282165 (Q=2)
+## outGQ05_L512.txt
+reg=gauss Q=0.70710678 Lam=512.0 Rmax=20480  time 182s
+one-loop  Pi1 = -0.031675243317726545    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.11706131783286612    target 0.6282165 (Q=2)
+## outGQ05_L64.txt
+reg=gauss Q=0.70710678 Lam=64.0 Rmax=2560  time 180s
+one-loop  Pi1 = -0.03166942647622695    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.1165357097890601    target 0.6282165 (Q=2)
+## fS_L128.txt
+reg=single Q=2.0 Lam=128.0 Rmax=40960  time 78s
+one-loop  Pi1 = -0.1932551852628313    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.6269959369232363    target 0.6282165 (Q=2)
+## fS_L256.txt
+reg=single Q=2.0 Lam=256.0 Rmax=81920  time 78s
+one-loop  Pi1 = -0.1933123832363827    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.6277839457702407    target 0.6282165 (Q=2)
+## fS_L32.txt
+reg=single Q=2.0 Lam=32.0 Rmax=10240  time 79s
+one-loop  Pi1 = -0.19326264135643595    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.6182240500440063    target 0.6282165 (Q=2)
+## fS_L512.txt
+reg=single Q=2.0 Lam=512.0 Rmax=163840  time 79s
+one-loop  Pi1 = -0.19343026348361944    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.6281379723118892    target 0.6282165 (Q=2)
+## fS_L64.txt
+reg=single Q=2.0 Lam=64.0 Rmax=20480  time 80s
+one-loop  Pi1 = -0.19326078481597952    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.6246594412346527    target 0.6282165 (Q=2)
+## fD_L128.txt
+reg=double Q=2.0 Lam=128.0 Rmax=40960  time 80s
+one-loop  Pi1 = -0.1932551852628313    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.626706626764483    target 0.6282165 (Q=2)
+## fD_L256.txt
+reg=double Q=2.0 Lam=256.0 Rmax=81920  time 78s
+one-loop  Pi1 = -0.1933123832363827    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.6277538575105908    target 0.6282165 (Q=2)
+## fD_L32.txt
+reg=double Q=2.0 Lam=32.0 Rmax=10240  time 79s
+one-loop  Pi1 = -0.19326264135643595    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.6160809276911529    target 0.6282165 (Q=2)
+## fD_L512.txt
+reg=double Q=2.0 Lam=512.0 Rmax=163840  time 79s
+one-loop  Pi1 = -0.19343026348361944    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.6275395085095333    target 0.6282165 (Q=2)
+## fD_L64.txt
+reg=double Q=2.0 Lam=64.0 Rmax=20480  time 79s
+one-loop  Pi1 = -0.19326078481597952    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.6238752826758295    target 0.6282165 (Q=2)
+## fG_L128.txt
+reg=gauss Q=2.0 Lam=128.0 Rmax=40960  time 129s
+one-loop  Pi1 = -0.1932551852628313    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.6271346047273653    target 0.6282165 (Q=2)
+## fG_L256.txt
+reg=gauss Q=2.0 Lam=256.0 Rmax=81920  time 129s
+one-loop  Pi1 = -0.1933123832363827    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.6280190417144454    target 0.6282165 (Q=2)
+## fG_L32.txt
+reg=gauss Q=2.0 Lam=32.0 Rmax=10240  time 129s
+one-loop  Pi1 = -0.19326264135643595    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.6173530760204929    target 0.6282165 (Q=2)
+## fG_L512.txt
+reg=gauss Q=2.0 Lam=512.0 Rmax=163840  time 128s
+one-loop  Pi1 = -0.19343026348361944    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.6283114706205142    target 0.6282165 (Q=2)
+## fG_L64.txt
+reg=gauss Q=2.0 Lam=64.0 Rmax=20480  time 130s
+one-loop  Pi1 = -0.19326078481597952    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.6245440282393846    target 0.6282165 (Q=2)
+## fSq_L128.txt
+reg=single Q=0.70710678 Lam=128.0 Rmax=40960  time 65s
+one-loop  Pi1 = -0.03166389156870404    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.116871763737731    target 0.6282165 (Q=2)
+## fSq_L256.txt
+reg=single Q=0.70710678 Lam=256.0 Rmax=81920  time 65s
+one-loop  Pi1 = -0.03172018150898081    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.116909902454215    target 0.6282165 (Q=2)
+## fSq_L32.txt
+reg=single Q=0.70710678 Lam=32.0 Rmax=10240  time 67s
+one-loop  Pi1 = -0.03167095347103771    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.1156115070462268    target 0.6282165 (Q=2)
+## fSq_L64.txt
+reg=single Q=0.70710678 Lam=64.0 Rmax=20480  time 66s
+one-loop  Pi1 = -0.03166900662646276    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.11654788713431989    target 0.6282165 (Q=2)
+## fGq_L128.txt
+reg=gauss Q=0.70710678 Lam=128.0 Rmax=40960  time 107s
+one-loop  Pi1 = -0.03166389156870404    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.11689935495430212    target 0.6282165 (Q=2)
+## fGq_L256.txt
+reg=gauss Q=0.70710678 Lam=256.0 Rmax=81920  time 107s
+one-loop  Pi1 = -0.03172018150898081    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.11702210108728145    target 0.6282165 (Q=2)
+## fGq_L32.txt
+reg=gauss Q=0.70710678 Lam=32.0 Rmax=10240  time 107s
+one-loop  Pi1 = -0.03167095347103771    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.11549987922852922    target 0.6282165 (Q=2)
+## fGq_L64.txt
+reg=gauss Q=0.70710678 Lam=64.0 Rmax=20480  time 107s
+one-loop  Pi1 = -0.03166900662646276    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.11653570934832111    target 0.6282165 (Q=2)
+## varR_160.txt
+reg=single Q=2.0 Lam=64.0 Rmax=10240  time 56s
+one-loop  Pi1 = -0.19326271449835944    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.6246549086648495    target 0.6282165 (Q=2)
+## varR_20.txt
+reg=single Q=2.0 Lam=64.0 Rmax=1280  time 38s
+one-loop  Pi1 = -0.193261055340547    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.624543898174698    target 0.6282165 (Q=2)
+## varR_320.txt
+reg=single Q=2.0 Lam=64.0 Rmax=20480  time 61s
+one-loop  Pi1 = -0.19326078481597952    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.6246594412346527    target 0.6282165 (Q=2)
+## varR_40.txt
+reg=single Q=2.0 Lam=64.0 Rmax=2560  time 46s
+one-loop  Pi1 = -0.1932611114745518    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.6246229158567629    target 0.6282165 (Q=2)
+## varR_80.txt
+reg=single Q=2.0 Lam=64.0 Rmax=5120  time 52s
+one-loop  Pi1 = -0.19326139439432616    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.6246468510361082    target 0.6282165 (Q=2)
+## vq_10.txt
+reg=single Q=0.70710678 Lam=64.0 Rmax=640  time 22s
+one-loop  Pi1 = -0.03166939000385752    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.11646297195442454    target 0.6282165 (Q=2)
+## vq_20.txt
+reg=single Q=0.70710678 Lam=64.0 Rmax=1280  time 28s
+one-loop  Pi1 = -0.03166935352168776    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.1165258684399949    target 0.6282165 (Q=2)
+## vq_40.txt
+reg=single Q=0.70710678 Lam=64.0 Rmax=2560  time 33s
+one-loop  Pi1 = -0.03166942647622695    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.11653829384231598    target 0.6282165 (Q=2)
+## vq_80.txt
+reg=single Q=0.70710678 Lam=64.0 Rmax=5120  time 36s
+one-loop  Pi1 = -0.031669703823354774    target 0.1932613 (Q=2)
+two-loop  Pi2 = -0.11654265298021663    target 0.6282165 (Q=2)

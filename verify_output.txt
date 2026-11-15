@@ -1,0 +1,62 @@
+
+== Table 2: regulator-removal error at Q^2=0.01 GeV^2 ==
+Pi_R = 0.0068806571
+L=    1  PT=0.006879109383  PV=0.00687911021  |dPT|=1.548e-6  |dPV|=1.547e-6  lead=1.549e-6
+L=   10  PT=0.006880641614  PV=0.006880641614  |dPT|=1.549e-8  |dPV|=1.549e-8  lead=1.549e-8
+L=  100  PT=0.006880656945  PV=0.006880656945  |dPT|=1.549e-10  |dPV|=1.549e-10  lead=1.549e-10
+L= 1000  PT=0.006880657098  PV=0.006880657098  |dPT|=1.549e-12  |dPV|=1.549e-12  lead=1.549e-12
+
+== Table 3: dispersion integral (Eq. 8) vs Feynman parameters (Eq. 6) ==
+Q2=0.01  disp=0.00688065709972  FP=0.00688065709972  diff=0.0
+Q2=1.0  disp=0.010446196667  FP=0.010446196667  diff=0.0
+Q2=100.0  disp=0.0140118550926  FP=0.0140118550926  diff=2.4e-27
+Q2=10000.0  disp=0.0175775147072  FP=0.0175775147072  diff=3.3e-29
+
+== Table 5: unsubtracted values, all scales 1 GeV ==
+MS-bar         raw(0)=-0.0117366507  raw(Q2)=-0.0048559936  diff=0.0068806571
+proper time    raw(0)=-0.0112897283  raw(Q2)=-0.00441061893  diff=0.0068791094
+Pauli-Villars  raw(0)=-0.0117366507  raw(Q2)=-0.00485754049  diff=0.0068791102
+alpha*gamma/(3pi) = 0.0004469
+
+== Table 6: smooth profiles, Delta Pi vs -alpha Q^2 c_w/(15 pi L^2) ==
+exp(-t^2)  c_w=0.88623 L=  10 measured=-1.37236e-8 predicted=-1.37236e-8 ratio=0.999994
+exp(-t^2)  c_w=0.88623 L= 100 measured=-1.37236e-10 predicted=-1.37236e-10 ratio=1.0
+1/(1+t^2)  c_w=1.5708 L=  10 measured=-2.43226e-8 predicted=-2.43245e-8 ratio=0.99992
+1/(1+t^2)  c_w=1.5708 L= 100 measured=-2.43245e-10 predicted=-2.43245e-10 ratio=0.999998
+sharp      c_w=1.0 L=  10 measured=-1.54854e-8 predicted=-1.54855e-8 ratio=0.999995
+sharp      c_w=1.0 L= 100 measured=-1.54855e-10 predicted=-1.54855e-10 ratio=1.0
+
+== Table 8 / Cor. 3.1: extrapolation and improved PV weights ==
+L1=  1 |err Pi(L1)|=1.548e-6  |err ext|=2.073e-10  Eq.17=2.074e-10
+L1=  2 |err Pi(L1)|=3.871e-7  |err ext|=1.296e-11  Eq.17=1.297e-11
+L1=  5 |err Pi(L1)|=6.194e-8  |err ext|=3.319e-13  Eq.17=3.319e-13
+L1= 10 |err Pi(L1)|=1.549e-8  |err ext|=2.074e-14  Eq.17=2.074e-14
+PV single M=10: -1.54853e-8   weights 1/3,-4/3 at 10,20: -4.1478e-14   ratio 3.73e+5
+
+== Table 9: k and Lambda/Q for target accuracy (electron loop, c_w=1) ==
+Q=0.1 Pi_R=0.00688066 k=0.02251  L/Q for 1e-2,1e-4,1e-6: 1.5, 15.0, 150.0
+Q=1.0 Pi_R=0.0104462 k=0.01482  L/Q for 1e-2,1e-4,1e-6: 1.22, 12.2, 122.0
+Q=10.0 Pi_R=0.0140119 k=0.01105  L/Q for 1e-2,1e-4,1e-6: 1.05, 10.5, 105.0
+
+== Sec. 5.9: asymptotics (Eq. 24) ==
+int x(1-x)ln[x(1-x)] = -0.277777777778  (-5/18 = -0.277777777778 )
+Q2/m2=1e+02  residual*Q2/m2=0.00441086   2alpha/pi=0.00464564
+Q2/m2=1e+04  residual*Q2/m2=0.00464113   2alpha/pi=0.00464564
+Q2/m2=1e+06  residual*Q2/m2=0.00464557   2alpha/pi=0.00464564
+Q2/m2=1e+08  residual*Q2/m2=0.00464564   2alpha/pi=0.00464564
+
+== Table 10: leptonic Delta alpha(MZ^2), units 1e-4 ==
+spacelike                    174.34659, 91.784467, 48.095886  sum 314.22695
+timelike                     174.34659, 91.784343, 48.060608  sum 314.19154
+timelike (rounded masses)    174.34663, 91.78405, 48.059385  sum 314.19006
+Steinhauser [14] (as quoted in paper): 174.34653, 91.78419, 48.05934, sum 314.19007
+
+== Table 7 (Gaussian part): L_G/Lambda^2, m=Q=1 ==
+L=10  L_G/L^2=0.4944349   0.5-(m^2+Q^2/6)/(2L^2)=0.4941667
+L=100  L_G/L^2=0.4999417   0.5-(m^2+Q^2/6)/(2L^2)=0.4999417
+L=1000  L_G/L^2=0.4999994   0.5-(m^2+Q^2/6)/(2L^2)=0.4999994
+
+== Sec. 5.10: tensor algebra (numpy, explicit Dirac matrices) ==
+(a) Ward identity Eq.3, max rel residual: 1.65e-14
+(b) trace identity Eq.29, max rel residual: 3.77e-13
+(d) DR at eps=1e-9: Pi(Q2)-Pi(0) = 0.00688065718683  vs Eq.6: 0.00688065709972

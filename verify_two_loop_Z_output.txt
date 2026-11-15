@@ -1,0 +1,4 @@
+electron  two-loop Delta alpha = 0.379829 e-4
+muon      two-loop Delta alpha = 0.235999 e-4
+tau       two-loop Delta alpha = 0.160339 e-4
+sum 0.776167 e-4   (paper/[14]: 0.77617)

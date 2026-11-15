@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use these scripts, please cite the paper and this archive."
+title: "Replication scripts: Regulator Independence of the Renormalized One-Loop QED Vacuum Polarization"
+type: software
+authors:
+  - family-names: "Selvaraj"
+    given-names: "Jagadeesh"
+    affiliation: "NextGen Technologies Private Limited, Chennai, India"
+    orcid: "https://orcid.org/0009-0007-2314-4057"
+    email: "dr.jagadeeshselvaraj@nextgentpl.com"
+version: "1.0.0"
+license: MIT                          # TODO: confirm licence choice
+date-released: "2026-11-14"
+repository-code: "https://github.com/drjagadeeshselvaraj/[repository-name]"   # TODO: repository name
+doi: "[TODO: Zenodo DOI after upload]"
